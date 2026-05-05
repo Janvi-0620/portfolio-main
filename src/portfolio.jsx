@@ -31,15 +31,15 @@ const Portfolio = () => {
       highlights: ['5 MongoDB data models', 'Bearer token auto-attachment', 'Public collection sharing', 'Request history replay']
     },
     {
-      title: 'SaaS Subscription Dashboard',
-      description: 'Responsive single-page application for managing user lifecycles, billing records, and revenue metrics, featuring a modern, accessible UI with dynamic micro-animations and loading skeletons.',
-      tech: ['React', 'TypeScript', 'CSS', 'Tailwind CSS', 'Zustand'],
-      link: 'https://e-commerce-nxwj.vercel.app',
+      title: 'Full-Stack E-Commerce Platform',
+      description: 'Architected a modular backend following Clean Architecture with an atomic order processing system using Mongoose Transactions and a high-conversion frontend.',
+      tech: ['Node.js', 'Express.js', 'MongoDB', 'React.js', 'Redux Toolkit', 'Redis'],
+      link: 'https://e-commerce-nxwj.vercel.app/',
       highlights: [
-        'Generic data table with client-side pagination & sorting',
-        'Role-Based Access Control (RBAC) using Zustand',
-        'Rendering optimization via React hooks',
-        'CI/CD pipeline via GitHub to Vercel'
+        'Atomic order processing using Mongoose Transactions',
+        'Robust security with JWT, RBAC, and Email 2FA',
+        'Redis caching & MongoDB indexing for sub-200ms searches',
+        'High-conversion UI with Framer Motion & Redux Toolkit'
       ]
     }
   ];
