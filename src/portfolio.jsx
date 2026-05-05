@@ -55,28 +55,33 @@ const Portfolio = () => {
   const skills = {
     frontend: ['React.js', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Responsive Design'],
     backend: ['Node.js', 'Express.js', 'REST APIs', 'MVC Architecture', 'JWT Auth', 'bcrypt'],
-    database: ['MongoDB', 'SQL', 'Mongoose'],
-    tools: ['Docker', 'Git', 'Vercel', 'Render', 'Postman', 'VS Code']
+    database: ['MongoDB', 'SQL'],
+    tools: ['Firebase', 'Git', 'Vercel', 'Render', 'Postman', 'VS Code']
   };
 
   const projects = [
     {
       title: 'Full-Stack API Testing Client',
-      description: 'A Postman-inspired API testing tool with JWT authentication, collection management, and request history. Features 3-tier rate limiting, Docker containerization, and comprehensive security measures.',
-      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Docker', 'JWT'],
+      description: 'An easy-to-use API testing tool similar to Postman. Users can securely test APIs, organize requests into collections, and view their request history.',
+      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT'],
       link: 'https://full-stack-api-testing-client.vercel.app/',
-      highlights: ['5 MongoDB data models', 'Bearer token auto-attachment', 'Public collection sharing', 'Request history replay']
+      highlights: [
+        'Created database models for efficient data storage',
+        'Added feature to automatically attach secure login tokens',
+        'Built functionality to share API collections publicly',
+        'Added ability to view and replay previous API requests'
+      ]
     },
     {
       title: 'Full-Stack E-Commerce Platform',
-      description: 'Architected a modular backend following Clean Architecture with an atomic order processing system using Mongoose Transactions and a high-conversion frontend.',
+      description: 'A fully functional online shopping website with a user-friendly design and a secure backend. Features include product browsing, cart management, and secure checkout.',
       tech: ['Node.js', 'Express.js', 'MongoDB', 'React.js', 'Redux Toolkit', 'Redis'],
       link: 'https://e-commerce-nxwj.vercel.app/',
       highlights: [
-        'Atomic order processing using Mongoose Transactions',
-        'Robust security with JWT, RBAC, and Email 2FA',
-        'Redis caching & MongoDB indexing for sub-200ms searches',
-        'High-conversion UI with Framer Motion & Redux Toolkit'
+        'Built a secure and reliable order checkout system',
+        'Implemented secure user login with Email Verification (2FA)',
+        'Optimized database for faster product search results',
+        'Designed an attractive and responsive user interface'
       ]
     }
   ];
